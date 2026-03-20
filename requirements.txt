@@ -1,0 +1,31 @@
+# 核心运行依赖（全部内置，无需安装）
+# Python 3.10+
+# asyncio, dataclasses, typing, enum, collections, uuid — 全部标准库
+
+# ---- 可选: 接入真实 API 时安装 ----
+
+# LLM API
+# openai>=1.30.0
+# anthropic>=0.28.0
+
+# 语音识别
+# openai-whisper  (本地) 或通过 openai SDK
+
+# 计算机视觉 (传统 CV)
+# opencv-python>=4.8.0
+# torch>=2.0.0
+# torchvision>=0.15.0
+
+# 目标检测 + 分割
+# groundingdino-py  (Grounding-DINO)
+# segment-anything  (SAM / SAM2)
+# ultralytics       (YOLOv8, 备选)
+
+# 图像超分辨率
+# basicsr           (Real-ESRGAN)
+
+# 电商搜索
+# google-search-results  (SerpAPI wrapper)
+
+# 天气
+# requests>=2.31.0  (直接调用 OpenWeatherMap REST API)
